@@ -1026,7 +1026,7 @@
 
 .row13{
     min-width: 100vh;
-    height: 1350px;    
+    height: 1450px;    
 }
 
 .form-group input{
@@ -1713,7 +1713,7 @@
 
 
 /**/
-@media (max-width: 580px) {
+@media (max-width: 582px) {
     
 
     .row1{
