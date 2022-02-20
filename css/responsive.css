@@ -1719,48 +1719,138 @@
     .row1{
         min-width: 100vh;  
     }
-    
+    .navbar h5{
+        color: dimgray;
+        font-weight: 400;
+        font-size: 17px;
+        padding-top: 20px;
+        font-family: Tahoma;   
+    }
+
+    .modal{
+        width: 500px;
+        height: 400px; 
+    }
+    .modal-header h5{
+        color: red;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+    }
+  
+   
 
     .row2{
         min-width: 100vh;  
+    }
+
+    .navbar-toggler{
+        margin-left: -100px;
     }
     
     .row3{
         min-width: 100vh;  
     }
+    .carousel-caption{
+        margin-bottom: 230px;
     
-    
+      
+    }
     .carousel-caption h1{
-    
-        font-size: 50px; 
-        margin-left: 20px; 
+        color: #fff;
+        font-size: 42px;
+        font-weight: 500;
+        line-height: 1.28;
+        margin-bottom: 20px;
+        font-family: 'Playfair Display', serif;
+        text-transform: capitalize;
+        text-align: left;
+        margin-left: -110px;
+        margin-top: 70px;
+        
+        
     }
     
     .carousel-caption p{
+    color:#fefefe;
+	font-size:22px;
+	max-width:450px;
+	font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+	margin-bottom:51px;
+    margin-left: -110px; 
    
-        font-size: 20px;
-        margin-left: 20px;  
+        
+    }
+    
+    .carousel-caption button{
+        color: #5b57d6;
+        background-color: #fff;
+        float: left;
+        font-size: 17px;
+        font-weight: 600;
+        font-family: 'Playfair Display', serif;
+        padding:15px 30px;
+        margin-right:150px;
+        text-transform: uppercase;
+        border-radius: 0px;
+        margin-top: 30px; 
+        margin-left: -110px;   
+    }
+    
+    .carousel-caption button:hover{
+        color: white;
+        background: #8b88e0;
+    }
+    
+    
+    #carouselExampleIndicators a{
+      bottom:-460px ;
+      margin-left: 20px; 
+      color: #5b57d6!important;
+    }
+    #carouselExampleIndicators .carousel-control-prev span{
+       background-color:#2e2b7e;
+       padding: 20px; 
+       border-radius: 100%;
     }
 
-    .carousel-caption button{
-        margin-left: 20px;
-        margin-right:-10px; 
-    }
-  
-    
+    #carouselExampleIndicators .carousel-control-next span{
+        background-color:#2e2b7e;
+        padding: 20px; 
+        border-radius: 100%;
+        margin-left: -1000px;
+     }
+
+   
+
 
     .row4{
         min-width: 100vh;
         height: 1850px;
     } 
+
+    .top-part h2{
+        font-weight: 600;
+        color:#44454F;
+        text-align: left;
+        margin-left: 150px;
+      }
+    
     .top-part p{
         color: rgb(136, 133, 133);
         font-size: 16px;
+        text-align: left;
+        max-width:450px;
+        text-align: center;
         }
     .bottom-part{
         margin-top: 50px;
-        text-align: center;
+        text-align: left;
         margin-bottom: 50px;
+        max-width:450px;
+        text-align: center;
     }
     .bottom-part p{
         margin-bottom: 20px;
@@ -1768,16 +1858,21 @@
         margin-bottom: 60px;
         font-size: 14px;
         }
-        .last-part h2{
+    .last-part{
+        text-align: left;
+        max-width:450px;
+        text-align: center; 
+    }
+    .last-part h2{
             text-align: center;
-        }    
+    }    
     .last-part p{
         color: rgb(136, 133, 133);
         font-size: 16px;
         text-align: center;
     }
     .last-part button{
-        margin-left:300px ;
+        margin-left:30px ;
         margin-bottom: 150px;
         margin-top: 30px;
       }
@@ -1794,20 +1889,52 @@
 
     .row5{
         min-width: 100vh;
-        height: 2200px;
+        height: 2250px;
     } 
+    .top{
+        margin-top: 100px;
+       text-align: left;
+       max-width:450px;
+       text-align: center;
+    }
     
-    .bottom p{
-        margin-bottom: 20px;
-        color: dimgray;
-        font-size: 14px;
-       
-    }
+  .top h2{
+      font-weight: 600;
+      color:#44454F;  
+  }
+  .top p{
+      color: rgb(136, 133, 133);
+      font-size: 19px;
+  }
+  .bottom{
+    margin-top: 100px;
+    text-align: left;
+    max-width:450px;
+    text-align: center;
+}
+.bottom img{
+    margin-bottom: 20px;
+    padding-top: 20px;
+ }
+ .bottom h5{
+     margin-bottom: 20px;
+     color: dimgray;
+     font-family: 'poppins';
+ }
+ .bottom p{
+     margin-bottom: 20px;
+     color: dimgray;
+    
+ }
 
-    .top p{
-        color: rgb(136, 133, 133);
-        font-size: 16px;
-    }
+ .bottom h6{
+    color:  #7370D8;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 60px;
+}
+  
+    
+    
     
     .row6{
         min-width: 100vh;
@@ -1816,9 +1943,9 @@
     .single-box{
         display: flex;
         padding-top: 70px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        text-align: left;
+        max-width:450px;
+        text-align: center;
     
     }
     .single-content{
@@ -1826,7 +1953,7 @@
       }
 
       .single-img .cup{
-        margin-left:-30px;  
+        margin-left:0px;  
       }
     .row7{
         min-width: 100vh;
@@ -1836,7 +1963,7 @@
     .item1 img{
       
         height: 650px;
-        width: 100%;
+        width: 450px;
         margin-bottom: 100px;
        
     }
@@ -1849,14 +1976,13 @@
     }
    
     .item2 img{
-        margin-left: 200px; 
-     transition: all 1.5s ease;
-      width: 320px;
-      height: 300px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 30px;
+    margin-left: 00px; 
+    transition: all 1.5s ease;
+    width: 320px;
+    height: 300px;
+    text-align: left;
+    max-width:450px;
+    text-align: center;
     
     
   }
@@ -1877,10 +2003,12 @@
   }
   
   .item3 img{
-      margin-left: 200px;  
+      margin-left: 00px;  
       width: 320px;
       height: 300px;
-    
+      text-align: left;
+      max-width:450px;
+      text-align: center;
    }
    
    .item3-first-img{
@@ -1899,7 +2027,7 @@
    
     .overlay-img{
         height: 685px;
-        width: 97%;
+        width: 475px;
        
     }
 .item3{
@@ -1908,13 +2036,20 @@
 
 .row7 button{
   float: left;
-  margin-left: 300px; 
+  margin-left: 180px; 
   
   }
-    .row8{
-        min-width: 100vh;
-        height: 1400px;
-    }
+.row8{
+    min-width: 100vh;
+    height: 700px;
+}
+
+.team-part{
+    padding-top: 100px;
+    color: #fff; 
+    max-width: 450px; 
+    text-align: center;
+   }
     .team{
         padding-top: 0px; 
         padding-bottom: 0px;
@@ -1929,23 +2064,26 @@
 
     
     .total-team-part{
-  
+        max-width: 450px; 
+        text-align: center;
         padding-top: 50px;
     }
     
     .team-img{
     width: 300px;
-    height:250px ;
+    height:300px ;
     position: relative;
     z-index: 5;
     overflow: hidden;
-    }
+    display: flex;
+    justify-content: flex-start;    }
     
     .team-img img{
         width: 100%;
         height: 100%;
         transition: all .5s;
         margin-top: -30px;
+        text-align: left;
     }
     
     .team:hover .team-img img{
@@ -1956,48 +2094,70 @@
     .team .carousel-caption .team-info{
         background-color:#39366D;
         opacity: .9;
-        margin-left:157px;
+        margin-left:7px;
         width: 300px;
-        height:80px;
-        text-align: center;
+        height:100px;
         position: absolute;
         color: #fff;
-        padding-top: 15px;
-        margin-top: 180px;
+        padding-top: 10px;
+        margin-top: 140px;
+        max-width: 450px; 
+        text-align: center;
     } 
     
     
     .team .carousel-caption .team-info:hover{
         width: 300px;
-        height:110px;
-        transition: all 1.9s ease;
+        height:130px;
+        transition: all 2.9s ease;
+        margin-top: 20px;
     }
     
+    .img2 , .img3 , .img4{
+        display: none;
+    }
     
     .row9{
         min-width: 100vh;
         height: 2700px;
     } 
-    
+    .box-top h2{
+        max-width: 450px; 
+        text-align: center;
+       
+       
+     }
     .box-top p{
-        
+        max-width: 450px; 
+        text-align: center;
         font-size: 16px;
        
      }
-    
+    .total-box-part{
+        max-width: 450px; 
+        text-align: center;
+    }
      .row10{
         min-width: 100vh;
         height: 700px;
     } 
-    
+    .client-top{
+        max-width: 450px; 
+        text-align: center; 
+    }
     .client-top h2{
       
         font-size: 25px;
      }
      .text-details p{
      
-        font-size: 16px;
+        font-size: 18px;
         
+     }
+
+     .client-bottom{
+        max-width: 450px; 
+        text-align: center; 
      }
     .row11{
         min-width: 100vh;
@@ -2009,6 +2169,8 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        max-width: 450px; 
+        text-align: center; 
     }
   
     .brand1 img{
@@ -2064,22 +2226,26 @@
    
 .row12{
     min-width: 100vh;
-    height: 2000px;
+    height: 2100px;
         
 } 
-
+.news {
+    max-width: 450px; 
+    text-align: center; 
+}
 .news p{
  
-  font-size: 14px;
+  font-size: 18px;
  
 }
 
 .card{
     width: 500px;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 20px;
+    
 }
 .blog-img img{
     width: 500px;
@@ -2095,31 +2261,47 @@
 }
 .news-btn button{
     margin-top: 50px;
-    margin-left: 290px;
-    margin-bottom: 100px;
+    margin-left: 190px;
+    margin-bottom: 280px;
 } 
 
 .row13{
     min-width: 100vh;
-    height: 1450px;    
+    height: 1650px;    
 }
 
+.contact{
+    max-width: 450px; 
+    text-align: center; 
+      
+}
+
+.contact-info{
+    margin-left: 20px;
+}
+.contact-top h4{
+    margin-left: 20px;
+}
 .form-group input{
-    width:400px;
-    padding: 12px;
+    width:470px;
+    padding: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin-left: 20px; 
+    
 }
 
 #message{
-   padding: 15px;
+   padding: 20px;
    font-size: 16px;
    font-family: Arial, Helvetica, sans-serif;
    color: rgb(145, 141, 141);
-   width:400px;
+   width:470px;
   height: 200px;
+  margin-left: 20px; 
 }
 
 .contact-btn button{
@@ -2138,18 +2320,29 @@
 
 .start h2{
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
+    max-width: 450px; 
+    text-align: left; 
+    margin-left: 20px;
+
  }
 
  .start-btn button{
-    margin-left: 330px;
+    margin-left: 20px;
     margin-top: 30px;
     text-align: center;
+    max-width: 450px; 
+    text-align: center; 
  }
 
  .row15{
     min-width: 100vh;
     height: 1200px;    
+}
+
+.footer{
+    max-width: 450px; 
+    text-align: left; 
 }
 .footer p{
     padding-top: 30px;
@@ -2294,6 +2487,11 @@
     text-align: center;
     font-size: 14px;  
     margin-top: 10px; 
+  }
+
+  .fb{
+    max-width: 450px; 
+    text-align: left;  
   }
 
 }
