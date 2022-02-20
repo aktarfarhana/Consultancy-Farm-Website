@@ -1026,7 +1026,7 @@
 
 .row13{
     min-width: 100vh;
-    height: 1350px;    
+    height: 1450px;    
 }
 
 .form-group input{
@@ -1560,7 +1560,7 @@
 
 .row13{
     min-width: 100vh;
-    height: 1350px;    
+    height: 1450px;    
 }
 
 .form-group input{
@@ -1713,7 +1713,7 @@
 
 
 /**/
-@media (max-width: 580px) {
+@media only screen and (max-width: 582px) {
     
 
     .row1{
@@ -1956,7 +1956,7 @@
     .team .carousel-caption .team-info{
         background-color:#39366D;
         opacity: .9;
-        margin-left:159px;
+        margin-left:157px;
         width: 300px;
         height:80px;
         text-align: center;
@@ -2001,7 +2001,7 @@
      }
     .row11{
         min-width: 100vh;
-        height: 1900px;
+        height: 690px;
     } 
 
     .brand{
@@ -2015,6 +2015,7 @@
         width:200px;
         height:77px;
         margin:10px ;
+        padding-bottom: 10px;
        
     }
     
@@ -2022,26 +2023,28 @@
         width:200px;
         height:77px;
         margin:10px ;
-      
+        padding-bottom: 10px;
     }
     
     .brand3 img{
         width:200px;
         height:77px;
         margin:10px ;
-      
+        padding-bottom: 10px;
     }
     
     .brand4 img{
         width:200px;
         height:77px;
         margin:10px ;
+        padding-bottom: 10px;
     }
     
     .brand5 img{
         width:200px;
         height:77px;
         margin:10px ;
+        padding-bottom: 10px;
     }
 
     .carousel-inner .brand{
@@ -2061,7 +2064,7 @@
    
 .row12{
     min-width: 100vh;
-    height: 1990px;
+    height: 2000px;
         
 } 
 
@@ -2087,18 +2090,18 @@
    
     width: 500px;
     height: 450px;
-    margin-top: -145px;
+    margin-top: -140px;
     border-radius: 2px;
 }
 .news-btn button{
     margin-top: 50px;
-    margin-left: 130px;
+    margin-left: 290px;
     margin-bottom: 100px;
 } 
 
 .row13{
     min-width: 100vh;
-    height: 1300px;    
+    height: 1450px;    
 }
 
 .form-group input{
